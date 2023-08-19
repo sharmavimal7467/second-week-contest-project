@@ -1,0 +1,125 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+nav{
+    display: flex;
+    gap: 65%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 8%;
+    padding: 10PX;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    position: sticky;
+}
+.nav-div-a:hover{
+    cursor: pointer;
+}
+.nav-div-b:hover{
+    cursor: pointer;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-left: 1px solid black;
+    text-align: center;
+}
+th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+border-left: 1px solid black;
+text-align: center;
+}
+td{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    border-left: 1px solid black;
+    text-align: center;
+}
+th:first-child{
+    width: 80px;
+    font-size: 18px;
+    font-weight: 600;
+}
+th:nth-child(2){
+    width: 300px;
+    font-size: 18px;
+    font-weight: 600;
+}
+th:nth-child(3){
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+}
+th:nth-child(4){
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+}
+th:last-child{
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+}
+tr{
+    height: 40px;
+}
+.inputt-divv{
+    width: 835px;
+    margin-left: 12%;
+    margin-block: 5px;
+}
+
+.last-div{
+    position: relative;
+    border: none;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 7%;
+    box-shadow: -9px 18px 6px 0px rgba(184,174,174,0.75);
+    padding-inline: auto;
+}
+.regi-ll>a{
+    position: absolute;
+    width: 835px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+h1{
+    margin-block: 20px;
+    margin-left: 12%;
+}
+table{
+    margin-left: 12%;
+}
+.last-last-div{
+    margin-left: 12%;
+    margin-block: 5px;
+}
+.first-div{
+    border: none;
+    background-color: whitesmoke;
+    height: 570px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 7%;
+    box-shadow: -9px 18px 6px 0px rgba(184,174,174,0.75);
+    padding-inline: auto;
+}
