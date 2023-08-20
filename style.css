@@ -3,6 +3,9 @@
  padding: 0px;
  box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 nav{
     display: flex;
     gap: 65%;
@@ -47,6 +50,7 @@ td{
     border-collapse: collapse;
     border-left: 1px solid black;
     text-align: center;
+    height: 20%;
 }
 th:first-child{
     width: 80px;
@@ -76,6 +80,9 @@ th:last-child{
 tr{
     height: 40px;
 }
+.div-aa{
+    margin-block: 30px;
+}
 .inputt-divv{
     width: 835px;
     margin-left: 12%;
@@ -91,7 +98,8 @@ tr{
     margin-top: 50px;
     margin-left: 7%;
     box-shadow: -9px 18px 6px 0px rgba(184,174,174,0.75);
-    padding-inline: auto;
+    /* padding-inline: auto; */
+    margin-bottom: 40px;
 }
 .regi-ll>a{
     position: absolute;
@@ -116,10 +124,15 @@ table{
 .first-div{
     border: none;
     background-color: whitesmoke;
-    height: 570px;
+    height: 750px;
     width: 1000px;
     margin-top: 50px;
     margin-left: 7%;
     box-shadow: -9px 18px 6px 0px rgba(184,174,174,0.75);
     padding-inline: auto;
+}
+.sec-tab{
+    width: 200px;
+    margin-block: 10px;
+    margin-left: 50px;
 }
